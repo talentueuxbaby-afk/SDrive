@@ -1,0 +1,18 @@
+{
+  "name": "s-drive",
+  "version": "1.0.0",
+  "description": "Application S-Drive d'analyse des matchs et coupons du jour.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.10.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}
